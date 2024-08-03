@@ -10,7 +10,7 @@ body {
 }
 
 header {
-    background-color: #6e0303;
+    background-color: #500808;
     color: white;
     padding: 1em 0;
     text-align: center;
@@ -41,14 +41,14 @@ section {
     text-align: center;
 }
 
-#artists .artist {
+.artist {
     display: inline-block;
     margin: 1em;
     text-align: center;
     color: #e6e6e6ce;
 }
 
-#artists .artist img {
+.artist img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
@@ -227,4 +227,27 @@ a{
 }
 #songs{
     padding: 0;
+}
+.arrow{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    color: #f1eeee;
+  
+    padding-right: 540px;
+}
+.arrow img{
+    
+    cursor: pointer;
+    transition: 0.5s;
+    fill: #d1cbcb;
+    height: 20px;
+}
+.artist{
+    display: grid;
+    gap: var(--size-3);
+    grid-auto-flow: column;
+    grid-auto-columns: 23%;
+
+    overflow-x: auto;
 }
