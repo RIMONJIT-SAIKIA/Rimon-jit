@@ -179,6 +179,18 @@ a{
     margin: 0;
     font-weight: 600;
     cursor: pointer;
+
+}
+.mp-p1-singer{
+    font-size: 0.75rem;
+    opacity: 0.75;
+    margin: 0;
+    cursor: pointer;
+}
+.mp-p1-song{
+    margin: 0;
+    font-weight: 600;
+    cursor: pointer;
 }
 .mp-playback{
     width: 50%;
@@ -249,7 +261,7 @@ a{
     justify-content:left
 }
 .music-player{
-    background-color: rgb(83, 82, 82);
+    background-color: rgb(92, 5, 5);
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -397,5 +409,63 @@ h3{
 }
 .mp-p1-artist{
     font-size: 0.5em;
+}
+#ABC{
+    height: 0;
+}
+#SSS{
+    display: none;
+}
+.playback-icons{
+    padding-left: 50px;
+}
+.mp-p1-song{
+    font-size: 0.6em;
+}
+.mp-p1-singer{
+    font-size: 0.3em;
+}
+.mp-p1{
+    width: 45%;
+    display: flex;
+    margin-left: 1rem;
+}
+.mp-p1-img{
+    height: 30px;
+    width: 30px;
+    padding-top: 1.5rem;
+    transition: 0.3s;
+}
+.progress-bar{
+    width: 100%;
+    appearance:inherit;
+    border-radius: 100px;
+    /* background-color: #232323;
+    cursor: pointer;
+    border-radius: 2rem;
+    height: 0.2rem;
+    /* line-height: 0.5rem; */
+    /* margin-top: 0.5rem; */ 
+}
+.progress-bar::-webkit-slider-runnable-track{
+    background-color: #c4bbbb;
+    cursor: pointer;
+    border-radius: 50%;
+    height: 0.3rem;
+}
+.progress-bar::-webkit-slider-thumb{
+    appearance: none;
+    background-color: #087070;
+    height: 0.7rem;
+    width: 0.7rem;
+    border-radius: 50%;
+    /* cursor: pointer; */
+    /* border-radius: 50%; */
+    margin-top: -3px;
+    /* height: 0.3rem; */
+
+}
+.playback-icons{
+    margin-left:2.5rem;
 }
 }
