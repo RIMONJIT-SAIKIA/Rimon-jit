@@ -335,3 +335,56 @@ a{
 .home{
     padding: none;
 }
+
+@media (max-width:450px){
+    .artist img{
+        width: 80px;
+        height: 80px;
+    }
+    .artist {
+    
+        color: #e6e6e6ce;
+        width: 150px;
+        grid-template-rows: min-content;
+        gap: var(--size-2);
+        padding: var(--size-3);
+        background: var(--surface-2);
+        border-radius: var(--radius-2) ;
+        box-shadow: var(--shadow-5);
+    }
+    section{
+        padding-left: 80px;
+    }
+    .media-scroller{
+        width: 80%;
+        --spacer: 1rem;
+        display: grid;
+        gap: var(--spacer);
+        grid-auto-flow: column;
+        grid-auto-columns: 28%;
+    padding: o var(--spacer) var(--spacer);
+        overflow-x: auto;
+        overscroll-behavior-inline: contain ;
+        scrollbar-width: 0.1;
+        
+    
+    }
+    width: 80px;
+    height: 80px;
+}
+.song img{
+    width: 80px;
+    height: 80px;
+}
+.song {
+
+    color: #e6e6e6ce;
+    width: 150px;
+    grid-template-rows: min-content;
+    gap: var(--size-2);
+    padding: var(--size-3);
+    background: var(--surface-2);
+    border-radius: var(--radius-2) ;
+    box-shadow: var(--shadow-5);
+}
+}
