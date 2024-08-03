@@ -50,7 +50,7 @@ section {
 padding: o var(--spacer) var(--spacer);
     overflow-x: auto;
     overscroll-behavior-inline: contain ;
-    scrollbar-width: 0.1;
+    scrollbar-width: 0.001;
     
 
 }
