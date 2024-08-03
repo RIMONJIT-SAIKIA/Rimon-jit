@@ -65,6 +65,7 @@ padding: o var(--spacer) var(--spacer);
     background: var(--surface-2);
     border-radius: var(--radius-2) ;
     box-shadow: var(--shadow-5);
+   
 }
 
 .artist img {
@@ -336,10 +337,10 @@ a{
     padding: none;
 }
 
-@media (max-width:450px){
+@media (max-width:600px){
     .artist img{
-        width: 80px;
-        height: 80px;
+        width: 100px;
+        height: 100px;
     }
     .artist {
     
@@ -353,15 +354,15 @@ a{
         box-shadow: var(--shadow-5);
     }
     section{
-        padding-left: 80px;
+        padding-left: 50px;
     }
     .media-scroller{
         width: 80%;
-        --spacer: 1rem;
+        --spacer: 1rem; 
         display: grid;
         gap: var(--spacer);
         grid-auto-flow: column;
-        grid-auto-columns: 28%;
+        grid-auto-columns: 38%;
     padding: o var(--spacer) var(--spacer);
         overflow-x: auto;
         overscroll-behavior-inline: contain ;
@@ -369,9 +370,8 @@ a{
         
     
     }
-    width: 80px;
-    height: 80px;
-}
+    
+
 .song img{
     width: 80px;
     height: 80px;
@@ -386,5 +386,16 @@ a{
     background: var(--surface-2);
     border-radius: var(--radius-2) ;
     box-shadow: var(--shadow-5);
+}
+h3{
+    font-size: 0.8em;
+    font-weight: 700;
+    margin: 1em 0;
+}
+.mp-p1-title{
+    font-size: 0.8em;
+}
+.mp-p1-artist{
+    font-size: 0.5em;
 }
 }
