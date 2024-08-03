@@ -8,7 +8,7 @@
   
 </head>
 <body>
-    <script src="/Rimon-jit/project.js"></script>
+   
      <header>
         <h1>MUSIC</h1>
         <nav>
@@ -26,14 +26,38 @@
                 <button>🔍</button>
             </div>
         </nav>
+        <div class="menu_icon" onclick="toggleMenu()">
+        <div></div>
+        <div></div>
+        <div></div>
+        </div>
+        <nav id="menu">
+            <div class="close-icon" onclick="toggleMenu()">&#10005;
+            </div>
+            <div id="MN">MENU</div>
+            <ul>
+                <li><a href="#">Login</a></li>
+                <br>
+                <hr>
+                <li><a href="#">Playlist</a></li>
+                <br>
+                <hr>
+                <li><a href="#">About</a></li>
+                <br>
+                <hr>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </nav>
     </header>
-    <section id="home">
+   <div id="TT">
         <h2>Welcome to our Music Project</h2>
         <p>Discover the latest tracks, albums, and artists.</p>
-    </section>
-    
+    </div>
+    <div id="TT"><h2>Featured Artists</h2></div>
     <section id="artists">
-        <h2>Featured Artists</h2>
+        
+        <div class="media-scroller snaps-inline">
+    
         <!-- <div class="arrow">
            <img src="/Rimon-jit/photos/caret-left-fill.svg" id="artist_left">
            <img src="/Rimon-jit/photos/caret-right-fill.svg" id="artist_right">
@@ -60,21 +84,23 @@
             <h3>SUNIDHI CHAUHAN</h3>
         </div>
         <div class="artist">
-            <img src="/index.html/PROJECT-2/yo yo.jpg" alt="Artist 2">
+            <img src="/Rimon-jit/photos/yo yo.jpg" alt="Artist 2">
             <h3>YO YO HONEY SINGH</h3>
         </div>
         <div class="artist">
-            <img src="/index.html/PROJECT-2/neha.jpg" alt="Artist 1">
+            <img src="/Rimon-jit/photos/neha.jpg" alt="Artist 1">
             <h3>NEHA KAKKAR</h3>
         </div>
-        <!-- <div class="artist">
-            <img src="/index.html/PROJECT-2/ZG.jpg" alt="Artist 2">
+        <div class="artist">
+            <img src="/Rimon-jit/photos/ZG.jpg" alt="Artist 2">
             <h3>ZUBEEN GARG</h3>
         </div>
         <div class="artist">
-            <img src="/index.html/PROJECT-2/papon.jpg" alt="Artist 2">
+            <img src="/Rimon-jit/photos/papon.jpg" alt="Artist 2">
             <h3>PAPON</h3>
-        </div> --> -->
+        </div> 
+    </div>
+    </section>
         <!-- <div class="artist" id="DD">
           <a id="DD" href="/index.html/artists.html">MORE></a>
            
@@ -82,8 +108,10 @@
    
         
     <!-- <section id="songs" > -->
-
-        <h2>Featured songs</h2>
+<br> <br> <br><br> <br> <br><br>
+        <h2 id="TT">Featured songs</h2>
+        <section>
+        <div class="media-scroller snaps-inline">
         <div class="song">
             <img src="/Rimon-jit/photos/KHNH.jpg" alt="Song 1">
             <div class="mp-p1-texts">
@@ -118,7 +146,7 @@
                 <p class="mp-p1-title">MY NAME IS SHEILA</p>
                 <p class="mp-p1-artist">SUNIDHI CHAUHAN</p>
             </div>
-        
+        </div>
         <!-- <div class="songs" id="DD">
             <a id="DD" href="/index.html/albums.html">MORE></a> 
             
@@ -170,6 +198,7 @@
     <footer> By Rimonjit Saikia
         <p>&copy; 2024 Music. All rights reserved.</p>
     </footer>
+    <script src="/Rimon-jit/project.js"></script>
 </body>
 </html>
 
