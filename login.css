@@ -64,3 +64,8 @@ button:hover {
         width: 80%;
     }
 }
+a{
+    color: #2886eb;
+    font-size: 12px;
+    text-decoration: none;
+}
