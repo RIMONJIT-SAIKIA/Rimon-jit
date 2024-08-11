@@ -63,9 +63,19 @@ button:hover {
     button{
         width: 80%;
     }
+    a{
+        font-size: 10px;
+    }
 }
 a{
     color: #2886eb;
     font-size: 12px;
     text-decoration: none;
+   
+}
+.PP{
+    color: white;
+    text-align: end;
+    text-decoration: none;
+    text-decoration-color: none;
 }
