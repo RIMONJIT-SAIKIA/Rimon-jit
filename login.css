@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #500808;
+  
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,18 +8,9 @@ body {
     margin: 0;
 }
 
-.login-container {
-    background-color: #020202;
-    padding: 20px 30px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    width: 300px;
-}
-
 h2 {
     margin-bottom: 20px;
-    color: #dbdada;
+   
 }
 
 .input-group {
@@ -30,7 +21,7 @@ h2 {
 .input-group label {
     display: block;
     margin-bottom: 5px;
-    color: #8f8a8a;
+   
 }
 
 .input-group input {
@@ -74,8 +65,77 @@ a{
    
 }
 .PP{
-    color: white;
+   
     text-align: end;
     text-decoration: none;
     text-decoration-color: none;
+}
+
+.dark{
+    background-color: #000000;
+}
+
+body.dark .login-container {
+     background-color:#500808;
+    color: #000;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+.default{
+    background-color: #000000;
+    
+}
+
+.bluish{
+    background-color: rgb(10, 108, 255);
+    color: #500808;
+}
+
+.neon{
+    background-color: #96ff1f;
+    color: #000000;
+}
+
+.light{
+    background-color: white;
+    color: #000;
+}
+body.default .login-container {
+    background-color:#500808;
+    color: #000;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+body.light .login-container {
+  background-color:#500808;
+    color: #000;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+body.bluish .login-container {
+    background-color:#500808;
+    color: #000;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+body.neon .login-container {
+   background-color:#500808;
+    color: #000;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
 }
