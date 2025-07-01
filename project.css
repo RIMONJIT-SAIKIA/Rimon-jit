@@ -652,4 +652,12 @@ body.neon .tab-menu{
     border-bottom: 2px solid #00ff88;
     }
 
- 
+#menu{
+   width: 220px;
+}
+#L{
+    padding-left: 30px;
+}
+#MN{
+    padding-left: 40%;
+}

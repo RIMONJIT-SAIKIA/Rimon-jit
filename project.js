@@ -37,3 +37,4 @@ const tabs = document.querySelectorAll(".tab");
       document.getElementById(tab.getAttribute("data-tab")).classList.add("active");
     });
   });
+
