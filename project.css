@@ -585,7 +585,7 @@ body.neon .music-player{
 }
 .tab-menu {
       display: flex;
-      border-bottom: 2px solid #ccc;
+      
       cursor: pointer;
       padding-left: 35.4%;
       width: 83%;
@@ -593,7 +593,7 @@ body.neon .music-player{
     }
     .tab-menu div {
       padding: 10px 30px;
-      border-bottom: 2px solid transparent;
+      
     }
     .tab-menu .active {
       border-bottom: 2px solid #007BFF;
@@ -601,7 +601,7 @@ body.neon .music-player{
     }
     .tab-content {
       display: none;
-      padding: 20px 0;
+      
      
     }
     .tab-content.active {
@@ -609,6 +609,7 @@ body.neon .music-player{
     }
    .search-container{
     padding-left: 40%;
+    padding-top: 10px;
    }
    body.light .search-container{
     background-color: #444;
@@ -621,7 +622,7 @@ body.default .search-container{
 }
 body.bluish .search-container{
     background-color: #0d1b2a;
-    border-top: 2px solid #00ffff;
+    
     border-bottom: 2px solid #00ffff;
 }
 body.neon .search-container{
@@ -630,4 +631,30 @@ body.neon .search-container{
     color:#ffffff;
     border-bottom: 2px solid #00ff88;
     }
+     body.light .tab-menu{
+    background-color: #444;
+}
+body.dark .tab-menu{
+    background-color: #500808;
+}
+body.default .tab-menu{
+    background-color: #500808;
+}
+body.bluish .tab-menu{
+    background-color: #0d1b2a;
+    color: #00ffff;
    
+}
+body.neon .tab-menu{
+    background-color: rgba(0,0,0,0.4);
+    backdrop-filter: blur(8px);
+    color:#ffffff;
+    border-bottom: 2px solid #00ff88;
+    }
+
+    #BB{
+        padding-left: 0;
+    }
+    section{
+        padding-left: 0;
+    }
