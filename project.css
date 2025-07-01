@@ -389,7 +389,7 @@ pre{
 
 .bluish{
     background-color: rgb(10, 108, 255);
-    color: #500808;
+    color: #09fcc7;
 }
 
 .neon{
@@ -663,8 +663,8 @@ pre{
     font-size: 4px;
 }
 .tab-menu{
-    padding-left: 31.5px;
-    padding-right: 31.5px;
+    padding-left: 30px;
+    padding-right: 30px;
     width: 100;
 }
 .tab-menu div {
@@ -687,4 +687,51 @@ pre{
     padding-left: 20%;
     padding-top: 10px;
    }
+   #MN{
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+   }
 }
+ body.light #MN{
+    background-color: #444;
+}
+body.dark #MN{
+    background-color: #500808;
+}
+body.default #MN{
+    background-color: #500808;
+}
+body.bluish #MN{
+    background-color: #0d1b2a;
+    color: #00ffff;
+   
+}
+body.neon #MN{
+    background-color: rgba(0,0,0,0.4);
+    backdrop-filter: blur(8px);
+    color:#ffffff;
+    border-bottom: 2px solid #00ff88;
+    }
+
+body.light .close-icon{
+    background-color: #444;
+}
+body.dark .close-icon{
+    background-color: #500808;
+}
+body.default .close-icon{
+    background-color: #500808;
+}
+body.bluish .close-icon{
+    background-color: #0d1b2a;
+    color: #00ffff;
+   
+}
+body.neon .close-icon{
+    background-color: rgba(0,0,0,0.4);
+    backdrop-filter: blur(8px);
+    color:#ffffff;
+    border-bottom: 2px solid #00ff88;
+    }
+        
