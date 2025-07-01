@@ -14,6 +14,14 @@ function clearThemes() {
   body.classList.remove("dark", "default","light", "bluish", "neon");
 }
 document.body.classList.add(localStorage.getItem('theme'));
+function refreshTabs() {
+  const contents = document.querySelectorAll(".tab-content");
+  contents.forEach(content => {
+    content.style.display = "none"; // temporarily hide
+    void content.offsetWidth; // force reflow
+    content.style.display = "";
+  });
+}
 buttons.forEach(button => {
   button.addEventListener("click", () => {
     clearThemes();
