@@ -464,6 +464,7 @@ body.neon .music-player{
     }
     .tab-content {
       display: none;
+      transition: background 0.3s ease, color 0.3s ease;
       
      
     }
