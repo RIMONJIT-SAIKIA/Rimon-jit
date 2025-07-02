@@ -606,21 +606,7 @@ font-family: 'Times New Roman', Times, serif;
     }
     
 
-.song img{
-    width: 80px;
-    height: 80px;
-}
-.song {
 
-    
-    width: 150px;
-    grid-template-rows: min-content;
-    gap: var(--size-2);
-    padding: var(--size-3);
-    background: var(--surface-2);
-    border-radius: var(--radius-2) ;
-    box-shadow: var(--shadow-5);
-}
 h3{
     font-size: 0.8em;
     font-weight: 700;
@@ -658,6 +644,7 @@ h3{
     padding-top: 1.5rem;
     transition: 0.3s;
 }
+
 .progress-bar{
     width: 100%;
     appearance:inherit;
@@ -697,7 +684,7 @@ pre{
 .tab-menu{
     padding-left: 31px;
     padding-right: 30px;
-    width: 330px;
+    width: 83%;
 }
 .tab-menu div {
       padding: 10px 20px;
@@ -724,4 +711,116 @@ pre{
     display: flex;
     justify-content: center;
    }
+   #songIcon{
+  height: 35px;
+  width: 35px;
+  margin-left: -30px;
+ 
+    padding: 0.4rem;
+    transition: 0.5s;
+}
+#artistName{
+    font-size: 7px;
+    opacity: 0.75;
+    height: 30px;
+    margin-right: 00px;  
+    cursor: pointer;
+    margin-top: -20px;
+
+}
+#songTitle{
+   margin-top:14px;
+    font-weight: 800;
+    cursor: pointer;
+    height: 10px;
+    font-size: 9px;
+}
+.player {
+ 
+  padding: 10px 20px;
+  padding-left: 0px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+ margin-left: 0;
+}
+
+#progressContainer {
+  flex: 1;
+  height: 6px;
+  background: #013431;
+  cursor: pointer;
+  border-radius: 2px;
+  position: relative;
+  width: 140px;
+ 
+}
+
+#progress {
+  background: #00ff8c;
+  height: 80%;
+  width: 0%;
+  border-radius: 4px;
+}
+.controls{
+    display: flex;
+    justify-content: baseline;
+    padding-left: 10px;
+    gap: 3px;
+    font-size: 8px;
+}
+#playPause{
+    border-radius: 60%;
+    border: 1px;
+    
+    height: 25px;
+    width: 25px;
+    color: aqua;
+    background-color: black;
+    font-size: 9px;
+}
+#playPause-1{
+    border-radius: 60%;
+    border: 1px;
+    
+    height: 22px;
+    width: 22px;
+    color: aqua;
+    background-color: black;
+    font-size: 9px;
+}
+.player-main{
+    position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  
+  display: flex;
+  flex-direction: row;
+height: 60px;
+}
+.music-bar{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-items:normal;
+    margin-right: -10px;
+    margin-left: 2rem;
+}
+
+.song-list .song{
+    height: 150px;
+    width: 144.9px;
+    font-size: 13px;
+    margin: 0;
+}
+.song img{
+    height: 100px;
+    width: 100px;
+}
+
 }
