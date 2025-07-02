@@ -1,0 +1,124 @@
+.player {
+ 
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: white;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+#progressContainer {
+  flex: 1;
+  height: 6px;
+  background: #013431;
+  cursor: pointer;
+  border-radius: 2px;
+  position: relative;
+  width: 500px;
+ 
+}
+
+#progress {
+  background: #00ff8c;
+  height: 100%;
+  width: 0%;
+  border-radius: 4px;
+}
+.controls{
+    display: flex;
+    justify-content: baseline;
+    padding-left: 70px;
+    gap: 10px;
+    font-size: medium;
+}
+#playPause{
+    border-radius: 60%;
+    border: 1px;
+    
+    height: 35px;
+    width: 40px;
+    color: aqua;
+    background-color: black;
+    font-size: large;
+}
+#playPause-1{
+    border-radius: 60%;
+    border: 1px;
+    
+    height: 30px;
+    width: 35px;
+    color: aqua;
+    background-color: black;
+    font-size: large;
+}
+.player-main{
+    position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #222;
+  display: flex;
+  flex-direction: row;
+  
+   
+  
+
+   
+   
+    
+    
+  
+}
+.music-bar{
+    height: 100px;
+    width: 300px;
+    display: flex;
+    justify-items:normal;
+    
+    margin-left: 2rem;
+}
+.song-list .song{
+    cursor: pointer;
+    padding: 8px;
+    color:#333;
+}
+#WW{
+    height: 20px;
+    width:20px;
+}
+#imgIcon{
+  height: 40px;
+  width: 40px;
+}
+#songIcon{
+  height: 70px;
+  width: 80px;
+ 
+    padding: 0.4rem;
+    transition: 0.5s;
+}
+#artistName{
+    font-size: 16px;
+    opacity: 0.75;
+    height: 30px;
+    margin-right: 00px;  
+    cursor: pointer;
+    margin-top: -20px;
+}
+#songTitle{
+   margin-top: 20px;
+    font-weight: 800;
+    cursor: pointer;
+    height: 20px;
+    font-size: 22px;
+}
+.music-b{
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+justify-items: initial;
+}
