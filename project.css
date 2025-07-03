@@ -556,16 +556,26 @@ font-family: 'Times New Roman', Times, serif;
     display: flex;
     flex-direction: row;
 }
+.song-section{
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    flex-direction: row;
+}
+.song-section #lo{
+    padding-left: 200px;
+    margin: 0;
+}
 @media (max-width:600px){
 
     #lo{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
     }
 
     .artist-1 img{
-        width: 80px;
-        height: 80px;
+        width: 50px;
+        height: 50px;
         display: inline;
     }
 
@@ -820,5 +830,19 @@ height: 60px;
     height: 100px;
     width: 100px;
 }
-
+.song-section{
+    padding-left: 0;
+    padding-right: 0;
+}
+.song-section .song{
+    padding-left: 0;
+    margin: 0;
+}
+.song-section #lo{
+    padding-left: 0;
+    margin: 0;
+}
+.artist-1{
+    margin: 0;
+}
 }
