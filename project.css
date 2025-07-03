@@ -303,12 +303,11 @@ body.neon .player-main{
       display: flex;
       
       cursor: pointer;
-      padding-left: 35.4%;
-      width: 64.6%;
-      justify-content:baseline ;
+      
+      justify-content: center;
     }
     .tab-menu div {
-      padding: 10px 30px;
+      padding: 10px 30px; 
       
     }
     .tab-menu .active {
@@ -681,15 +680,14 @@ pre{
     text-align: left;
     font-size: 4px;
 }
-.tab-menu{
-    padding-left: 31px;
-    padding-right: 0;
-    width: 83%;
+ .tab-menu{
+    display: flex;
+    justify-content: center;
 }
 .tab-menu div {
       padding: 10px 20px;
       
-    }
+    } */
     .tab-menu .active {
       border-bottom: 2px solid #007BFF;
       font-weight: bold;
