@@ -683,7 +683,7 @@ pre{
 }
 .tab-menu{
     padding-left: 31px;
-    padding-right: 30px;
+    padding-right: 0;
     width: 83%;
 }
 .tab-menu div {
