@@ -332,7 +332,8 @@ body.neon .player-main{
       
     }
     .tab-menu div {
-      padding: 10px 30px; 
+      padding: 0 30px; 
+      margin-top: 40px;
       
     }
     .tab-menu .active {
@@ -891,6 +892,8 @@ height: 60px;
 }
 .tab-menu .tab{
     padding-left: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 .title{
     font-size: 11px;
@@ -909,5 +912,11 @@ height: 60px;
     width: 6px;
     margin-right: -30px;
     
+}
+header{
+    padding: 0;
+}
+.music-b #artistName{
+margin-top: -30px;
 }
 }
