@@ -296,8 +296,8 @@ body.bluish header{
 body.neon header{
     background-color: rgba(0,0,0,0.4);
     backdrop-filter: blur(8px);
-    color:#021ff9;
-    border-bottom: 2px solid #00ff88;
+    color:black;
+    
 }
 
 body.light .player-main{
@@ -387,12 +387,7 @@ body.bluish .tab-menu{
     color: #00ffff;
    
 }
-body.neon .tab-menu{
-    background-color: rgba(0,0,0,0.4);
-    backdrop-filter: blur(8px);
-    color:#ffffff;
-    border-bottom: 2px solid #00ff88;
-    }
+
 
 #menu{
    width: 220px;
