@@ -914,4 +914,31 @@ header{
 .music-b #artistName{
 margin-top: -25px;
 }
+#TT p{
+    font-size: small;
+    font-weight: bold;
+}
+
+}
+body.light  #TT p{
+    color: #000;
+}
+body.dark  #TT p{
+     color:#500808;
+}
+body.default  #TT p{
+    color: #500808;
+}
+body.bluish  #TT p{
+   
+    color: #00ffff;
+   
+}
+body.neon #TT p{
+   
+    color:black;
+   
+    }
+#TT p{
+    font-weight: bolder;
 }
